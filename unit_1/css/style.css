@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-}
-h1, p {
-	color: white;
+	color:#efefef;
+	font-family:helvetica, arial, sans-serif;
+	font-size:16px;
 }
