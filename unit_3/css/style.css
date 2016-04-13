@@ -1,0 +1,11 @@
+body, h1 {
+	color: #dddddd;
+	background-color: #595959;
+	background-image: url("images/sanjuan.jpg");
+	background-size: cover;
+	font-family: "Proxima Nova", sans-serif;
+}
+
+#slogan {
+	font-style: italic;
+}
