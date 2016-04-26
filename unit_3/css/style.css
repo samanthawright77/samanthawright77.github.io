@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Alegreya);
+
 body{
 	color: #dddddd;
 	background-color: #595959;
-	font-family: "Proxima Nova", sans-serif;
+	font-family: "Alegreya", sans-serif;
 }
 section {
 	padding:4em 0;
