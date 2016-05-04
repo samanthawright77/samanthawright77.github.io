@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 
 h1 {
-	color: #000000
+	color: #000000;
 	background-color: #595959;
 	font-family: "Oswald", sans-serif;
 }
@@ -25,7 +25,7 @@ body{
 	font-family: "Droid Serif", sans-serif;
 }
 section {
-	padding:4em 0;
+	padding:4em 0em;
 }
 section#splash {
 	background-image: url("../images/sanjuan.jpg");
@@ -33,7 +33,8 @@ section#splash {
 	background-repeat:no-repeat;
 	background-position:center;
 	height:90vh;
-	color: #000000
+	color: #000000;
+	opacity: 0.5;
 }
 #slogan {
 	font-family: "Oswald", sans-serif;
@@ -44,7 +45,7 @@ section#splash {
 	background-color: #595959;
 }
 #contact {
-	color: #ff5a5f
+	color: #ff5a5f;
 	background-color: #595959;
 	font-family: "Droid Serif", sans-serif;
 }

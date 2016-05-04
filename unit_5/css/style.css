@@ -1,0 +1,28 @@
+#wrapper {
+	background-color: #595959
+	margin: 4em;
+	border: 5px solid black;
+	padding: 2em 2em;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px solid black;
+	padding: 20px
+}
+header {
+	text-align: center;
+	background-color: #FFED74;
+	border: 1px solid black;
+	padding: 20px
+}
+#about {
+	background-color: #E89C6C;
+	border: 1px solid black;
+	padding: 20px
+}
+footer {
+	text-align: center;
+	background-color: #FF957E;
+	border: 1px solid black;
+	padding: 20px
+}
