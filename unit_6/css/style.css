@@ -1,0 +1,99 @@
+#wrapper {
+	background-color: #9c6c6b;
+	border: 0;
+	padding: 0px;
+}
+
+nav {
+	background-color: #9c6c6b;
+	border: 1px solid black;
+	padding: 10px 0;
+	width: 500px;
+	margin: 0 auto;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	float: left;
+	padding: 20px;
+	align-content: center;
+}
+
+ul {
+	list-style: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+header {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("../images/honey-948452_1920.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 1px solid black;
+	padding: 400px;
+}
+
+section {
+	background-color: #848588;
+	padding: 20px;
+	text-align: center;
+}
+
+#resume {
+	text-align: left;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+div {
+	background-color: #f9f3e6;
+	margin: 0 auto;
+	border: 1px solid #761307;
+	padding: 20px;
+	width: 960px;
+	vertical-align: top;
+}
+
+#portfolio {
+	text-align: center;
+}
+
+.samples {
+	background-color: #f9f3e6;
+	margin: 20px 20px;
+	border: 2px solid #761307;
+	padding: 30px;
+	height: 500px;
+	width: 385px;
+	display: inline-block;
+}
+
+footer {
+	background-color: #171511;
+	padding: 20px;
+	color: #848588;
+	text-align: center;
+}
+
+.contacts {
+	display: inline;
+	padding: 30px;
+}
+
+.date {
+	float: right;
+}
