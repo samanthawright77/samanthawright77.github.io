@@ -1,3 +1,4 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 #wrapper {
 	background-color: #250002;
 	border: 0;
@@ -34,23 +35,31 @@ a {
 	height: 0;
 	font-size: 0;
 }
-
-header {
-	background-image: linear-gradient(to bottom, rgba(100,100,100,0.6) 0%,rgba(100,100,100,0.6) 100%), url("../images/honey-948452_1920.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	text-align: center;
-	border: 1px solid black;
-	padding: 400px;
-}
-
 section {
 	background-color: #848588;
 	padding: 20px;
 	text-align: center;
 }
-
+section#splash {
+	background-image: url("../images/honey-948452_1920.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	height: 70vh;
+	position: relative;
+}
+section#splash div {
+	background: #241A52;
+	padding: 2em;
+	font-size: 1.5em;
+	position: absolute;
+	border-radius: .2em;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
 #about {
 	text-align: center;
 }
