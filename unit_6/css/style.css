@@ -1,12 +1,11 @@
 #wrapper {
-	background-color: #9c6c6b;
+	background-color: #350103;
 	border: 0;
 	padding: 0px;
 }
 
 nav {
-	background-color: #9c6c6b;
-	border: 1px solid black;
+	background-color: #350103;
 	padding: 10px 0;
 	width: 500px;
 	margin: 0 auto;
@@ -15,15 +14,16 @@ nav {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	display: block;
 	float: left;
 	padding: 20px;
 	align-content: center;
 }
 
-ul {
+#me {
 	list-style: none;
+	text-align: center;
 }
 
 .clearfix:after {
@@ -36,7 +36,7 @@ ul {
 }
 
 header {
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("../images/honey-948452_1920.jpg");
+	background-image: linear-gradient(to bottom, rgba(100,100,100,0.6) 0%,rgba(100,100,100,0.6) 100%), url("../images/honey-948452_1920.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -51,8 +51,15 @@ section {
 	text-align: center;
 }
 
+#about {
+	text-align: center;
+}
+
 #resume {
 	text-align: left;
+	background-image: url("../images/marble.jpg");
+	background-size: contain;
+	background-position: center;
 }
 
 h2, h3 {
@@ -72,6 +79,24 @@ div {
 	text-align: center;
 }
 
+#kitsune {
+	background-image: url("../images/miu-miu.jpg");
+	background-size: contain;
+	background-position: center;
+}
+
+#dot {
+	background-image: url("../images/clouds.png");
+	background-size: contain;
+	background-position: center;
+}
+
+#info {
+	background-image: url("../images/infographic copy.png");
+	background-size: contain;
+	background-position: center;
+}
+
 .samples {
 	background-color: #f9f3e6;
 	margin: 20px 20px;
@@ -83,17 +108,27 @@ div {
 }
 
 footer {
-	background-color: #171511;
-	padding: 20px;
-	color: #848588;
+	background-color: #350103;
+	border: 0;
+	padding: 10px 0;
+	width: 900px;
+	margin: 0 auto;
 	text-align: center;
 }
 
-.contacts {
-	display: inline;
-	padding: 30px;
+.company {
+	font-weight: bold;
+}
+
+.title {
+	text-decoration: underline;
 }
 
 .date {
 	float: right;
+}
+
+#references {
+	text-align: center;
+	font-style: italic;
 }

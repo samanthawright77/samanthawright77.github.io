@@ -1,0 +1,134 @@
+#wrapper {
+	background-color: #250002;
+	border: 0;
+	padding: 0px;
+}
+
+nav {
+	background-color: #350103;
+	padding: 10px 0;
+	width: 500px;
+	margin: 0 auto;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	float: left;
+	padding: 20px;
+	align-content: center;
+}
+
+#me {
+	list-style: none;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+header {
+	background-image: linear-gradient(to bottom, rgba(100,100,100,0.6) 0%,rgba(100,100,100,0.6) 100%), url("../images/honey-948452_1920.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 1px solid black;
+	padding: 400px;
+}
+
+section {
+	background-color: #848588;
+	padding: 20px;
+	text-align: center;
+}
+
+#about {
+	text-align: center;
+}
+
+#resume {
+	text-align: left;
+	background-image: url("../images/marble.jpg");
+	background-size: contain;
+	background-position: center;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+div {
+	background-color: #f9f3e6;
+	margin: 0 auto;
+	border: 1px solid #761307;
+	padding: 20px;
+	width: 960px;
+	vertical-align: top;
+}
+
+#portfolio {
+	text-align: center;
+}
+
+#kitsune {
+	background-image: url("../images/miu-miu.jpg");
+	background-size: contain;
+	background-position: center;
+}
+
+#dot {
+	background-image: url("../images/clouds.png");
+	background-size: contain;
+	background-position: center;
+}
+
+#info {
+	background-image: url("../images/infographic copy.png");
+	background-size: contain;
+	background-position: center;
+}
+
+.samples {
+	background-color: #f9f3e6;
+	margin: 20px 20px;
+	border: 2px solid #761307;
+	padding: 30px;
+	height: 500px;
+	width: 385px;
+	display: inline-block;
+}
+
+footer {
+	background-color: #350103;
+	border: 0;
+	padding: 10px 0;
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.company {
+	font-weight: bold;
+}
+
+.title {
+	text-decoration: underline;
+}
+
+.date {
+	float: right;
+}
+
+#references {
+	text-align: center;
+	font-style: italic;
+}

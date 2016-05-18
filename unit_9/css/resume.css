@@ -1,0 +1,90 @@
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+div {
+	background-color: #f9f3e6;
+	margin: 10px auto;
+	border: 1px solid #761307;
+	padding: 20px;
+	width: 960px;
+	vertical-align: top;
+}
+
+p {
+	margin: 15px;
+}
+
+section {
+	background-color: #250002;
+	margin: 10px auto;
+	padding: 1.5em;
+	border-style: none;
+}
+
+.company {
+	font-weight: bold;
+}
+
+.title {
+	text-decoration: underline;
+}
+
+.date {
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#references {
+	text-align: center;
+	font-style: italic;
+	margin: 0;
+}
+
+#skills {
+	margin: 5px;
+}
+
+#skills1 {
+	float: left;
+	background-color: rgba(0,0,0,0.0);
+	border-style: none;
+	width: 440px;
+	padding: 0 10px 0 10px;
+
+}
+
+#skills2 {
+	float: right;
+	background-color: rgba(0,0,0,0.0);
+	border-style: none;
+	width: 440px;
+	padding: 0 10px 0 10px;
+}
+
+#header {
+	color: white;
+}
+
+#resume {
+	text-align: left;
+	background-image: url("../images/marble.jpg");
+	background-size: contain;
+	background-position: center;
