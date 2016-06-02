@@ -16,6 +16,7 @@ div {
 	margin: 10px auto;
 	border: 1px solid #761307;
 	padding: 20px;
+	height: 1350px;
 	width: 960px;
 	vertical-align: top;
 }
@@ -54,6 +55,7 @@ section {
 
 #references {
 	text-align: center;
+	float: left;
 	font-style: italic;
 	margin: 0;
 }
@@ -67,6 +69,7 @@ section {
 	background-color: rgba(0,0,0,0.0);
 	border-style: none;
 	width: 440px;
+	height: 180px;
 	padding: 0 10px 0 10px;
 
 }
@@ -76,6 +79,7 @@ section {
 	background-color: rgba(0,0,0,0.0);
 	border-style: none;
 	width: 440px;
+	height: 180px;
 	padding: 0 10px 0 10px;
 }
 
@@ -88,3 +92,4 @@ section {
 	background-image: url("../images/marble.jpg");
 	background-size: contain;
 	background-position: center;
+	background-repeat: no-repeat;

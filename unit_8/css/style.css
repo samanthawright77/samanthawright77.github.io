@@ -1,0 +1,139 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+nav {
+	background-color: #350103;
+	padding: 10px 0;
+	width: 5000em;
+	margin: 0 auto;
+	position: fixed;
+}
+
+a {
+	text-decoration: none;
+	color: cyan;
+	display: block;
+	float: left;
+	padding: 20px;
+	align-content: center;
+}
+
+section {
+	background-color: #F7F7F7;
+	padding: 20px;
+	text-align: center;
+}
+
+section#splash {
+	background-image: url("../images/honey-948452_1920.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	height: 70vh;
+	position: relative;
+}
+
+section#splash div {
+	background: rgba(137,75,81,.70);
+	padding: 2em;
+	font-size: 1.5em;
+	position: absolute;
+	border-radius: .2em;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #F7F7F7;
+}
+
+section#portfolio img:hover {
+	background-color: cyan;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+div {
+	background-color: cyan;
+	margin: 0 auto;
+	padding: 20px;
+	width: 960px;
+	vertical-align: top;
+}
+
+footer {
+	background-color: #350103;
+	border: 0;
+	padding: 10px 0;
+	width: 5000em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#wrapper {
+	background-color: #250002;
+	border: 0;
+	padding: 0px;
+}
+
+#me {
+	list-style: none;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+#about {
+	text-align: center;
+}
+
+#portfolio {
+	text-align: center;
+}
+
+#kitsune {
+	color: gray;
+	background-image: url("../images/miu-miubw.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#dot {
+	color: gray;
+	background-image: url("../images/cloudsbw.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+#info {
+	color: gray;
+	background-image: url("../images/beebw.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.samples {
+	background-color: white;
+	margin: 20px 20px;
+	border: 1px solid black;
+	padding: 30px;
+	height: 470px;
+	width: 350px;
+	display: inline-block;
+}
+
+.maps {
+	text-align: center;
+}
